@@ -1,0 +1,14 @@
+{
+  "name": "agent-security",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Security - Autonomous Red Teaming & Adaptive Enclave Defense",
+  "scripts": {
+    "dev": "npm --prefix AgentSecurity-main run dev",
+    "build": "npm --prefix AgentSecurity-main run build",
+    "lint": "npm --prefix AgentSecurity-main run lint",
+    "preview": "npm --prefix AgentSecurity-main run preview",
+    "start": "npm --prefix AgentSecurity-main run dev",
+    "postinstall": "npm --prefix AgentSecurity-main install"
+  }
+}

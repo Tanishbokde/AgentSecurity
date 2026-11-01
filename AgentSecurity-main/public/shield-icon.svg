@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="shieldFaviconGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <path d="M24 4L7 11V22C7 32.5 14.2 42.2 24 44.5C33.8 42.2 41 32.5 41 22V11L24 4Z" stroke="url(#shieldFaviconGrad)" stroke-width="2.5" fill="none"/>
+  <circle cx="24" cy="18" r="4.5" fill="url(#shieldFaviconGrad)"/>
+  <path d="M16 32C16 27.58 19.58 24 24 24C28.42 24 32 27.58 32 32H16Z" fill="url(#shieldFaviconGrad)"/>
+</svg>
