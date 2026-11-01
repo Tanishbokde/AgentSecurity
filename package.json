@@ -5,7 +5,7 @@
   "description": "Agent Security - Autonomous Red Teaming & Adaptive Enclave Defense",
   "scripts": {
     "dev": "npm --prefix AgentSecurity-main run dev",
-    "build": "npm --prefix AgentSecurity-main run build",
+    "build": "npm --prefix AgentSecurity-main run build && node -e \"const fs=require('fs'); fs.cpSync('AgentSecurity-main/dist', 'dist', {recursive: true});\"",
     "lint": "npm --prefix AgentSecurity-main run lint",
     "preview": "npm --prefix AgentSecurity-main run preview",
     "start": "npm --prefix AgentSecurity-main run dev",
